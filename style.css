@@ -1,0 +1,50 @@
+.grid {
+	display: grid;
+	height: 500;
+	width: 500;
+	grid-template-rows: repeat(2, 250px);
+	grid-template-columns: repeat(2, 250px);
+	border: solid black 2px;
+	margin-left: 20%;
+	margin-top: 5%;
+	background-image: url("https://res.cloudinary.com/deallen7/image/upload/v1521941425/Screen_Shot_2018-03-24_at_6.29.59_PM.png");
+	background-size: 500px 500px;
+}
+
+.box {
+	padding-top: 100px;
+	text-align: center;
+	color: white;
+}
+
+.a {
+	grid-column-start:1;
+	grid-column-end:2;
+	grid-row-start:0;
+	grid-row-start:1;
+	background-color: #3498db;
+}
+
+.b {
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:0;
+	grid-row-start:1;
+	background-color: #e74c3c;
+}
+
+.c {
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:1;
+	grid-row-start:2;
+	background-color: #9b59b6;
+}
+
+.d {
+	grid-column-start:1;
+	grid-column-end:2;
+	grid-row-start:1;
+	grid-row-start:2;
+	background-color: #34495e;
+}
